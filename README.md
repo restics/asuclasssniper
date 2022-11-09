@@ -10,22 +10,23 @@ This program notifies you of open classes on ASU course catalog.
     ```
     sudo apt install python3-pip
     ```
-  * Selenium
+  * Python
     ```
-    pip install selenium
+    sudo apt install python3
     ```
   * Firefox
     ```
     sudo apt install firefox
     ```
+  * Selenium
+    ```
+    pip install selenium
+    ```
   * Geckodriver
     ```
     sudo apt install firefox-geckodriver
     ```
-  * Python
-    ```
-    sudo apt install python3
-    ```
+
 ### Installation
   1. Clone the repo
    ```sh
