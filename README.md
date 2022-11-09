@@ -6,6 +6,8 @@ This program allows you to get notified of open classes on ASU course catalog.
   This app requires selenium and python 3.9, which can be installed with:
   * Selenium
     ```pip install selenium```
+  * Python
+    ```sudo apt install python3```
 ### Installation
   1. Clone the repo
    ```sh
