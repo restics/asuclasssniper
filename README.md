@@ -8,7 +8,7 @@ This program notifies you of open classes on ASU course catalog.
   This app requires pip, firefox, selenium, geckodriver, and python 3.9, which can be installed with:
   * pip
     ```
-    sudo apt install python3
+    sudo apt install python3-pip
     ```
   * Selenium
     ```
