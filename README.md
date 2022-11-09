@@ -1,5 +1,5 @@
 # ASU class sniper
-This program allows you to get notified of open classes on ASU course catalog.
+This program notifies you of open classes on ASU course catalog.
 
 ## Getting Started
 ### Prerequisites
