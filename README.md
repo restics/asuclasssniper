@@ -1,6 +1,18 @@
 # ASU class sniper
-This program allows you to snipe classes on ASU canvas.
+This program allows you to get notified of open classes on ASU course catalog.
 
-## Installation
-This app requires selenium and python 3
-
+## Getting Started
+### Prerequisites
+  This app requires selenium and python 3.9, which can be installed with:
+  * Selenium
+    ```pip install selenium```
+### Installation
+  1. Clone the repo
+   ```sh
+   git clone https://github.com/pixelizedgaming/asuclasssniper.git
+   ```
+## Usage
+  * Add destination addresses and class codes to send to in usernames.json.
+  * SMTP credentials should be added in SMS.py
+  * Run ```python3 main.py``` to start the program
+  
