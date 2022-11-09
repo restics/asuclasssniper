@@ -11,6 +11,8 @@ This program allows you to get notified of open classes on ASU course catalog.
    ```sh
    git clone https://github.com/pixelizedgaming/asuclasssniper.git
    ```
+  2. Download the latest geckodriver executable:
+    https://github.com/mozilla/geckodriver/releases
 ## Usage
   * Add destination addresses and class codes to send to in usernames.json.
   * SMTP credentials should be added in SMS.py
