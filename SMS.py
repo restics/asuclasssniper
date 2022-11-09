@@ -1,7 +1,7 @@
 import smtplib
 
-username = 'pixelizedgaming1@outlook.com'
-password = '*81P0K&9Jq'
+username = ''
+password = ''
 
 def send(message, email):
 	auth = (username, password)

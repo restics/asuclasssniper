@@ -2,18 +2,18 @@ from selenium import webdriver as wd
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import SMS
+from selenium.webdriver import FirefoxOptions
 import re
-
-course_id = "10456"
 
 # id: 5 digit code in string format
 # email: string
 
 def look_up_course_by_id(id, email):
     print(f"Looking up class {id} for email {email}")
+    opts = FirefoxOptions()
+    opts.add_argument("--headless")
     url = "https://catalog.apps.asu.edu/catalog/classes/classlist?campusOrOnlineSelection=C&honors=F&keywords=" + id + "&promod=F&searchType=all&term=2231"
-    browser = wd.Firefox(executable_path=r'geckodriver.exe')
+    browser = wd.Firefox(executable_path=r'geckodriver.exe',options=opts)
 
     browser.get(url)
     try:
@@ -37,8 +37,8 @@ def look_up_course_by_id(id, email):
         # basically takes the closest unique identifier that I could find and then shifts the amount of characters needed
         # hacky solution but i found that it works
         if html[positions.span()[1] + 27] != "0":
-            print(f"Sending email to {email}")
-            SMS.send(f"Your class {matches[2]} with {matches[4]} has an opening! Reserve your spot now!\n\n{url}\n\nclass code: {id}", email)
-        
+            print(f"Adding message")
+            return(f"Your class {matches[2]} with {matches[4]} has an opening! Reserve your spot now!\n\n{url}\n\nclass code: {id}" + "\n\n\n")
+        return ""
         browser.close()
 
