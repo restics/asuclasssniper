@@ -5,11 +5,15 @@ This program allows you to get notified of open classes on ASU course catalog.
 ### Prerequisites
   * These install instructions were written to work with linux
  
-  This app requires pip, selenium, and python 3.9, which can be installed with:
+  This app requires pip, firefox, selenium, geckodriver, and python 3.9, which can be installed with:
   * pip
     ```sudo apt install python3```
   * Selenium
     ```pip install selenium```
+  * Firefox
+    ```sudo apt install firefox```
+  * Geckodriver
+    ```sudo apt install firefox-geckodriver```
   * Python
     ```sudo apt install python3```
 ### Installation
@@ -17,9 +21,6 @@ This program allows you to get notified of open classes on ASU course catalog.
    ```sh
    git clone https://github.com/pixelizedgaming/asuclasssniper.git
    ```
-  2. Download the latest geckodriver release and extract it in the installation directory
-  
-    https://github.com/mozilla/geckodriver/releases
 ## Usage
   * Add destination addresses and class codes to send to in usernames.json.
   * SMTP credentials should be added in SMS.py
