@@ -3,7 +3,7 @@ This program notifies you of open classes on ASU course catalog.
 
 ## Getting Started
 ### Prerequisites
-  * These install instructions were written to work with linux
+  * These install instructions were written to work with linux.
  
   This app requires pip, firefox, selenium, geckodriver, and python 3.9, which can be installed with:
   * pip
