@@ -13,7 +13,7 @@ def look_up_course_by_id(id, email):
     opts = FirefoxOptions()
     opts.add_argument("--headless")
     url = "https://catalog.apps.asu.edu/catalog/classes/classlist?campusOrOnlineSelection=C&honors=F&keywords=" + id + "&promod=F&searchType=all&term=2231"
-    browser = wd.Firefox(executable_path=r'geckodriver.exe',options=opts)
+    browser = wd.Firefox(executable_path=r'usr/bin/geckodriver',options=opts)
 
     browser.get(url)
     try:
