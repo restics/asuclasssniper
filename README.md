@@ -7,15 +7,25 @@ This program allows you to get notified of open classes on ASU course catalog.
  
   This app requires pip, firefox, selenium, geckodriver, and python 3.9, which can be installed with:
   * pip
-    ```sudo apt install python3```
+    ```
+    sudo apt install python3
+    ```
   * Selenium
-    ```pip install selenium```
+    ```
+    pip install selenium
+    ```
   * Firefox
-    ```sudo apt install firefox```
+    ```
+    sudo apt install firefox
+    ```
   * Geckodriver
-    ```sudo apt install firefox-geckodriver```
+    ```
+    sudo apt install firefox-geckodriver
+    ```
   * Python
-    ```sudo apt install python3```
+    ```
+    sudo apt install python3
+    ```
 ### Installation
   1. Clone the repo
    ```sh
