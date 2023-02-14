@@ -1,5 +1,5 @@
-# ASU class sniper
-This program notifies you of open classes on ASU course catalog.
+# Sniper Monkey At ASU
+Oh god oh fuck the sniper monkey is here at ASU please oh god hes gonna snipe my class schedule oh god oh fuck 
 
 ## Getting Started
 ### Prerequisites
