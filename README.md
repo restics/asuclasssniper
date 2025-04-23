@@ -1,4 +1,4 @@
-# ASU class sniper
+# ASU classfinder
 This program notifies you of open classes on ASU course catalog.
 
 ## Getting Started
